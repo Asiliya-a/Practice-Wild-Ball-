@@ -434,13 +434,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_3
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4291480295
   m_fontColor: {r: 0.90588236, g: 0.7921569, b: 0.7921569, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1602,8 +1602,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283893765
-  m_fontColor: {r: 0.020825924, g: 0.03312402, b: 0.33962262, a: 1}
+    rgba: 4279704357
+  m_fontColor: {r: 0.14509805, g: 0.105882354, b: 0.09019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2059,13 +2059,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_1
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2403,13 +2403,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_2
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2504,7 +2504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_Color: {r: 0.34901962, g: 0.38431373, b: 0.4627451, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2971,13 +2971,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_5
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3117,7 +3117,6 @@ RectTransform:
   - {fileID: 1152743802}
   - {fileID: 1083602523}
   - {fileID: 1251407205}
-  - {fileID: 2082371029}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3209,13 +3208,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_4
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3476,13 +3475,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1152743805}
-        m_TargetAssemblyTypeName: PlayLevel, Assembly-CSharp
-        m_MethodName: PressButtonChooseLevel_6
-        m_Mode: 1
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: PressButtonChooseLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3720,7 +3719,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 185cd8067c995c842aadc31bc3cec5b4, type: 2}
+  - {fileID: 2100000, guid: 14bfd6f2fb8031344940a697546b2952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3759,11 +3758,11 @@ Transform:
   m_GameObject: {fileID: 2082371025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 447, y: 60, z: -55}
+  m_LocalPosition: {x: 1463, y: 638, z: -50}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1821762654}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2082371030
 Animator:
@@ -3794,3 +3793,4 @@ SceneRoots:
   - {fileID: 1821762654}
   - {fileID: 1710812095}
   - {fileID: 324167888}
+  - {fileID: 2082371029}

@@ -1,32 +1,16 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PanelOfPause : MonoBehaviour
 {
-    [SerializeField] GameObject Panel_of_pause;
+    [SerializeField] GameObject PausePanel;
 
-    void Start()
+    public void OpenPanelPause()
     {
-        
+        PausePanel.SetActive(true);
     }
 
-    void Update()
+    public void ClosePanelPause()
     {
-        
-    }
-
-    public void Pause()
-    {
-        Panel_of_pause.SetActive(true);
-    }
-
-    public void RestartCurrentLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void BackInMenu()
-    {
-        SceneManager.LoadScene(0);
+        PausePanel.SetActive(false);
     }
 }
